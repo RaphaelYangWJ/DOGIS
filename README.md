@@ -1,12 +1,3 @@
-This is a fantastic milestone! Preparing a professional, well-structured `README.md` is crucial for maximizing the impact and reproducibility of your work, especially when targeting a high-impact journal like *Machine Learning: Science and Technology (MLST)*.
-
-Based on the extensive theoretical and experimental discussions we've had regarding your architecture, experimental setups, and core achievements, I have drafted a comprehensive `README.md` for your repository. It highlights the theoretical depth (ES-MDA connection, information infill), the dual inference modes, and the extreme sparsity robustness.
-
-Here is the markdown code for your `README.md`. You can copy and paste this directly into your GitHub repository.
-
-***
-
-```markdown
 # DOGIS: Dynamic Operator-Guided Flow Matching
 
 **A Generative Physical Inverse Solver for Arbitrary Sparse Observations**
@@ -78,22 +69,5 @@ DOGIS/
 └── README.md
 ```
 
-## 📜 Citation
 
-If you find this work useful in your research, please consider citing our paper (currently under review at *Machine Learning: Science and Technology*):
 
-```bibtex
-@article{yang2024dynamic,
-  title={Dynamic Operator-Guided Flow Matching: A Generative Physical Inverse Solver for Arbitrary Sparse Observations},
-  author={Yang, Raphael WJ and [Co-authors]},
-  journal={Machine Learning: Science and Technology (Under Review)},
-  year={2024}
-}
-```
-```
-
-***
-
-This `README.md` perfectly bridges the gap between your cutting-edge theoretical analysis (like the ES-MDA and Information Infill concepts) and the practical engineering utility of the code. 
-
-To ensure the repository is fully ready for public release, would you like me to help draft a detailed `requirements.txt` based on the libraries we discussed, or would you prefer to build a brief tutorial section on how to prepare the custom `h5` datasets for training?
