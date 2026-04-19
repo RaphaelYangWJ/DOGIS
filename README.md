@@ -2,9 +2,20 @@
 
 **A Generative Physical Inverse Solver for Arbitrary Sparse Observations**
 
-[![Paper](https://img.shields.io/badge/Paper-MLST%20(Under%20Review)-blue)](#)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<table>
+  <tr>
+    <td align="center">
+      <img src="imgs/DOGIS-Darcyflow.gif" alt="DOGIS: Darcy Flow" width="380">
+      <br>
+      <em>DIN: Groundwater Permeability Gaussian Field Diffusion</em>
+    </td>
+    <td align="center">
+      <img src="imgs/DOGIS-SHM.gif" alt="DOGIS: Structural Health Monitoring" width="380">
+      <br>
+      <em>DIN: Groundwater Permeability TI Field Diffusion</em>
+    </td>
+  </tr>
+</table>
 
 > This repository contains the official PyTorch implementation of **DOGIS**, a generative framework designed to solve severely ill-posed inverse problems under extreme data sparsity and high noise regimes.
 
