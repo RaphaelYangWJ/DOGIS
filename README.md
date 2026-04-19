@@ -7,12 +7,12 @@
     <td align="center">
       <img src="imgs/DOGIS-Darcyflow.gif" alt="DOGIS: Darcy Flow" width="450">
       <br>
-      <em>DIN: Groundwater Permeability Gaussian Field Diffusion</em>
+      <em>DOGIS: Darcy Flow</em>
     </td>
     <td align="center">
       <img src="imgs/DOGIS-SHM.gif" alt="DOGIS: Structural Health Monitoring" width="450">
       <br>
-      <em>DIN: Groundwater Permeability TI Field Diffusion</em>
+      <em>DOGIS: Structural Health Monitoring</em>
     </td>
   </tr>
 </table>
