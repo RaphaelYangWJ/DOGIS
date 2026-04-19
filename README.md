@@ -5,12 +5,12 @@
 <table>
   <tr>
     <td align="center">
-      <img src="imgs/DOGIS-Darcyflow.gif" alt="DOGIS: Darcy Flow" width="450">
+      <img src="imgs/DOGIS-Darcyflow.gif" alt="DOGIS: Darcy Flow" width="380">
       <br>
       <em>DOGIS: Darcy Flow</em>
     </td>
     <td align="center">
-      <img src="imgs/DOGIS-SHM.gif" alt="DOGIS: Structural Health Monitoring" width="450">
+      <img src="imgs/DOGIS-SHM.gif" alt="DOGIS: Structural Health Monitoring" width="380">
       <br>
       <em>DOGIS: Structural Health Monitoring</em>
     </td>
