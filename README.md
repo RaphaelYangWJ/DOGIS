@@ -1,4 +1,4 @@
-# DOGIS: Dynamic Operator-Guided Flow Matching
+# 🌌 Dynamic Operator-Guided Flow Matching: A Generative Physical Inverse Solver for Arbitrary Sparse Observations
 
 **A Generative Physical Inverse Solver for Arbitrary Sparse Observations**
 
