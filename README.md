@@ -21,13 +21,15 @@
 
 ## 📖 Overview
 
-Solving ill-posed inverse problems—inversing high-dimensional, heterogeneous physical fields from limited observations—is a fundamental challenge in scientific engineering[cite: 153]. [cite_start]Traditional solvers are computationally prohibitive [cite: 191][cite_start], while recent deep learning approaches (e.g., Diffusion Posterior Sampling) suffer from catastrophic posterior collapse and significant inference latency when physical gradients become ill-conditioned under extreme sparsity[cite: 192].
+Solving ill-posed inverse problems—inversing high-dimensional, heterogeneous physical fields from limited observations—is a fundamental challenge in scientific engineering. Traditional solvers are computationally prohibitive, while recent deep learning approaches (e.g., Diffusion Posterior Sampling) suffer from catastrophic posterior collapse and significant inference latency when physical gradients become ill-conditioned under extreme sparsity.
 
-**DOGIS** overcomes this bottleneck by paradigm-shifting the computational burden from test-time optimization to amortized training[cite: 319]. [cite_start]By explicitly embedding a pre-trained Fourier Neural Operator (FNO) into the continuous normalizing flow trajectory, DOGIS successfully internalizes complex PDE dynamics into the generative prior itself. 
+**DOGIS** overcomes this bottleneck by paradigm-shifting the computational burden from test-time optimization to amortized training. By explicitly embedding a pre-trained Fourier Neural Operator (FNO) into the continuous normalizing flow trajectory, DOGIS successfully internalizes complex PDE dynamics into the generative prior itself. 
+![sample](imgs/sample.png)
+
 
 ### 🔥 Key Highlights
 * **Extreme Sparsity Robustness:** Exhibits graceful degradation under severe sparsity, successfully recovering $64 \times 64$ resolution fields from merely 16 random sensors (an extreme 0.78% sparsity).
-* **Ultra-Fast Inference:** Achieves an average 8x inference speedup over standard DPS frameworks[cite: 201].
+* **Ultra-Fast Inference:** Achieves an average 8x inference speedup over standard DPS frameworks.
 * **Physics-Aware UQ:** Provides precise, physics-aware Uncertainty Quantification (UQ) that isolates high-variance regions to genuinely ambiguous topological boundaries, avoiding uninformative variance inflation.
 * **Continuous Data Assimilation:** The time-adaptive weighting scheduling $\lambda(t)$ is mathematically equivalent to the continuous-time limit of covariance inflation in Ensemble Smoother with Multiple Data Assimilation (ES-MDA).
 
