@@ -24,6 +24,7 @@
 Solving ill-posed inverse problems—inversing high-dimensional, heterogeneous physical fields from limited observations—is a fundamental challenge in scientific engineering. Traditional solvers are computationally prohibitive, while recent deep learning approaches (e.g., Diffusion Posterior Sampling) suffer from catastrophic posterior collapse and significant inference latency when physical gradients become ill-conditioned under extreme sparsity.
 
 **DOGIS** overcomes this bottleneck by paradigm-shifting the computational burden from test-time optimization to amortized training. By explicitly embedding a pre-trained Fourier Neural Operator (FNO) into the continuous normalizing flow trajectory, DOGIS successfully internalizes complex PDE dynamics into the generative prior itself. 
+
 ![sample](imgs/sample.png)
 
 
@@ -56,12 +57,6 @@ pip install -r requirements.txt
 The repository evaluates DOGIS on two highly heterogeneous physical scenarios:
 1. **Darcy Flow:** Subsurface fluid transport governed by second-order elliptic PDEs (permeability field inversion).
 2. **Structural Health Monitoring (SHM):** Mechanical behaviors governed by elastodynamic equations mapping spatially heterogeneous elastic properties (Young's modulus inversion).
-
-
-### Visualizing Results (3D & Animations)
-We provide comprehensive Jupyter Notebooks for post-processing and visualizing the `h5` results:
-* `Sparsity_Robustness_Analysis.ipynb`: Generates 3D surface comparisons and quantitative RMSE/SSIM tables.
-* `Sampling_dynamic.ipynb` / `Video_Generation.ipynb`: Generates IOP-compliant `.mp4` animations (H.264, 15fps, 480x360) of the step-by-step generative inversion process from Gaussian noise.
 
 ## 📂 Repository Structure
 
